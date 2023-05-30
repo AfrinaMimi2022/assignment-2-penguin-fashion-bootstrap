@@ -1,0 +1,70 @@
+body{
+    font-family: roboto;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+#fist-section{
+    background-color: rgba(247, 247, 229, 0.685);
+}
+.card-img-top{
+    height: 60%;
+    background-color: rgb(232, 228, 228);
+    padding: 30px;
+}
+.middlecard{
+    height: 60%;
+    padding: 50px;
+}
+.menu{
+    width: 550px;
+}
+
+p{
+    font-weight: 400;
+}
+#logo{
+    width: 300px;
+}
+.shoppingbutton{
+    color: white;
+    padding: 20px 40px;
+    border: none;
+    font-size: 15px;
+    background: linear-gradient(rgba(2,0,36,1) 0%, rgb(87, 150, 28) 0%, rgb(126, 244, 30) 100%);
+}
+.shoppingbutton img{
+    width: 30px;
+}
+h1{
+    font-size: 80px;
+    font-weight: 200;
+    font-family:Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h2{
+    font-size: 50px;
+    font-weight: 200;
+    font-family:Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h3{
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 700;
+}
+span{
+    color:orange;
+}
+.card-body{
+    padding-bottom: 0;
+}
+
+.img-fluid{
+    padding-right: 20px;
+}
+
+
+@media (max-width: 575.98px) { 
+    .lastcontainer{
+        flex-direction: column-reverse;
+    } }
